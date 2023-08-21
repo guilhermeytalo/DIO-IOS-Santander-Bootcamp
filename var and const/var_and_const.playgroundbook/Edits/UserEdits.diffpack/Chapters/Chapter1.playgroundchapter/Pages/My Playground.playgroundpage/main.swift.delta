@@ -7,12 +7,19 @@
 		<dict>
 			<key>ModifiedContent</key>
 			<string>// Declarations for constants and variables
-let maxNumberOfLoginAttemps: int = 10
-var currentLoginAttemps: int = 0
+let maxNumberOfLoginAttemps: Int = 10
+var currentLoginAttemps: Int = 0
 
+// Type notation
+var welcomeMessage: String
+welcomeMessage = "Welcome to the Mato"
+var welcomeNewMessage = "Jairo"
+var red, green, blue: Double
+
+print(maxNumberOfLoginAttemps, currentLoginAttemps, welcomeMessage, welcomeNewMessage)
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 116}</string>
+			<string>{1, 348}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>
