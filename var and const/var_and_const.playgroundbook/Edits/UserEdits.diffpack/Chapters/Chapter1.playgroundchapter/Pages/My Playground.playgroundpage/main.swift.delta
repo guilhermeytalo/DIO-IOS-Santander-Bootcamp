@@ -16,10 +16,22 @@ welcomeMessage = "Welcome to the Mato"
 var welcomeNewMessage = "Jairo"
 var red, green, blue: Double
 
+// code error
+var 1teste = "teste 1"
+var teste1 = "testes"
+teste1 = 1
+let teste1 = "testes"
+
+
+// if u need use a const or a var with the same name with a reserved word 
+let `public` = "Geral"
+
+
+
 print(maxNumberOfLoginAttemps, currentLoginAttemps, welcomeMessage, welcomeNewMessage)
 </string>
 			<key>ModifiedRange</key>
-			<string>{1, 348}</string>
+			<string>{1, 543}</string>
 			<key>OriginalContent</key>
 			<string></string>
 			<key>OriginalRange</key>
