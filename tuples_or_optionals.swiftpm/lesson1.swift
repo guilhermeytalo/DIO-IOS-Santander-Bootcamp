@@ -46,5 +46,44 @@ func main() {
     
     let myNumber = Int(possibleNumber)
     
+    // Aqui mynumber é um inteiro opvional
+    if let myNumber = myNumber {
+        // Aqui, myNumber é um inteiro não opcional
+        print("Meu número é: \(myNumber)")
+    }
+    /**
+     A partir do 5.7 pode usar a ortigrafia mais curta
+     if let myNumber {
+        print("Meu número é \(myNuber)")
+     }
+     */
     
+    if let firstNumber = Int("4"), let secondNumber = int("42"), firstNumber < secondNumber
+        && secondNumber < 100 {
+        print("\(firstNumber) < \(secondNumber) < 100")
+    }
+    
+    if let firstNumber = Int("4") {
+        if let secondNumber = Int("42") {
+            if firstNumber < secondNumber && secondNumber < 100 {
+                
+            }
+        }
+    }
+    
+    // Optionals - Unwrapped Optional Implicitamente
+    let possibleString: String? = "Uma string opcional"
+    let forcedString: String = possibleString! // requer um ponto de exclamação
+    let assumedString: String! = "Uma string opcional desempacotada explicitamente"
+    let implicit: String = assumedString // não precisa de ponto de exaclamação
+    let optionalString = assumedString
+    // O tipo de optionalString é "String?"e assumedString não é desempacotada à força
+    if assumedString != nill {
+        print(assumedString)
+    }
+    
+    if let definiteString = assumedString {
+        print(definiteString)
+    }
+        
 }
